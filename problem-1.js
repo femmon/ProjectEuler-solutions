@@ -20,4 +20,4 @@ function sumOfMultipliesOf(multi, bound) {
 // → 233168
 
 // Run from node
-if (typeof process != "undefined" && process.argv[2]) console.log(sumOfMultipliesOf3And5(process.argv[2]));
+if (typeof process != "undefined" && process.argv[2]) console.log(sumOfMultipliesOf3And5(Number(process.argv[2])));
